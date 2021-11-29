@@ -10,10 +10,10 @@ class Footer extends React.Component {
           </h1>
           <ul className="foot-icons">
             <li className="foot-ic">
-              <i class="fa fa-facebook-square"></i>
+              <i className="fab fa-facebook-square"></i>
             </li>
             <li className="foot-ic">
-              <i class="fa fa-instagram"></i>
+              <i className="fab fa-instagram"></i>{" "}
             </li>
           </ul>
         </div>
