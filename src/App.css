@@ -218,18 +218,20 @@ nav a {
 footer {
   background-color: #4e4e4e;
   height: 8vh;
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer-container {
+  padding-top: 1%;
   margin-left: 10%;
   margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-title {
   color: white;
-  margin-top: 3%;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -238,11 +240,19 @@ footer {
 .foot-icons {
   display: flex;
   flex-direction: row;
+  width: 70px;
   justify-content: space-between;
 }
 
 .foot-icons li {
   list-style: none;
+  color: white;
+  font-size: 30px;
+}
+
+.foot-icons a {
+  text-decoration: none;
+  color: white;
 }
 
 @media screen and (min-width: 768px) {
