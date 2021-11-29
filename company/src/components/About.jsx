@@ -38,11 +38,11 @@ class About extends React.Component {
 
           <ul>
             {this.state.employers.map(({ id, name, description, url }) => (
-              <li class="employer">
-                <div class="emp">
-                  <img key={id} class="emp-img" src={url} alt="employee" />
-                  <h4 class="emp-name">{name}</h4>
-                  <p class="emp-des">{description}</p>
+              <li key={id} className="employer">
+                <div className="emp">
+                  <img className="emp-img" src={url} alt="employee" />
+                  <h4 className="emp-name">{name}</h4>
+                  <p className="emp-des">{description}</p>
                 </div>
               </li>
             ))}
